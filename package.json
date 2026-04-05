@@ -35,5 +35,9 @@
     "react-dom": "^18.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imsatishjaiswal/cliphook.git"
   }
 }
