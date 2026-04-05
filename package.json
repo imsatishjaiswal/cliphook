@@ -1,0 +1,39 @@
+{
+  "name": "cliphook",
+  "version": "0.1.0",
+  "description": "A lightweight, developer-friendly React hook + component for easy clipboard management with built-in feedback states.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean --minify",
+    "dev": "tsup src/index.ts --format cjs,esm --watch --dts",
+    "lint": "tsc"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "clipboard",
+    "copy",
+    "copy-to-clipboard",
+    "useClipboard",
+    "useCliphook"
+  ],
+  "author": "satishjaiswal",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
