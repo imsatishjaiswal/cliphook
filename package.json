@@ -1,12 +1,13 @@
 {
   "name": "cliphook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight, developer-friendly React hook + component for easy clipboard management with built-in feedback states.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "EXAMPLES.md"
   ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --clean --minify",
